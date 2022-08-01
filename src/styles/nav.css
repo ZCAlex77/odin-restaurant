@@ -1,0 +1,30 @@
+nav{
+  width: 100%;
+  background-color: #F9AB3C;
+}
+
+nav > ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: .8rem;
+}
+
+nav > ul > li{
+  font-size: 1.2rem;
+  color: #300;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 20px;
+  width: 200px;
+  height: 100%;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.active-link{
+  color: #fff;
+  background: #300;
+}
