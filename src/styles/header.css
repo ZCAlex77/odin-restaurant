@@ -1,0 +1,21 @@
+header{
+  width: 100%;
+  height: 30vh;
+  background-image: url('../assets/header-background.jpg'), linear-gradient(to top, #222a, transparent);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header > h1{
+  position: absolute;
+  bottom: -4rem;
+  left: -1%;
+  text-align: center;
+  color: #300;
+  background-color: #F9AB3C;
+  box-shadow: 5px 5px 15px #111;
+  padding: .6rem;
+  width: 102%;
+}
