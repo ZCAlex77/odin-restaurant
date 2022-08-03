@@ -1,0 +1,16 @@
+#contact {
+  display: none;
+}
+
+#contact > h2 {
+  font-size: 2rem;
+}
+
+#contact > p,
+#contact li {
+  font-size: 1.2rem;
+}
+
+#contact li {
+  margin-left: 20px;
+}
