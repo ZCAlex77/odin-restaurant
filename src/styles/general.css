@@ -4,6 +4,20 @@ html {
   font-family: "Catamaran", sans-serif;
 }
 
+::-webkit-scrollbar {
+  appearance: none;
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #300;
+  border-radius: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,4 +40,5 @@ main {
   height: auto;
   padding: 32px;
   color: #f9ab3c;
+  border-radius: 0 0 10px 10px;
 }
