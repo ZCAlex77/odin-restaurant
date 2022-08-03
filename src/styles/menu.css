@@ -1,0 +1,39 @@
+#menu{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  height: 100%;
+  gap: 32px;
+}
+
+#menu .card{
+  background-color: #f9ab3c;
+  color: #300;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.card > div{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+  transform: translateY(-25%);
+}
+
+.card :where(p, h3){
+  background: #300;
+  color: #f9ab3c;
+  margin: .5rem;
+  width: calc(100% - 1rem);
+  display: block;
+  padding: 5px 20px;
+  border-radius: 999px;
+}
