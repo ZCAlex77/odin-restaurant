@@ -1,6 +1,6 @@
 import "../styles/nav.css";
 
-const Nav = () => {
+const Nav = (function(){
   const nav = document.createElement("nav"),
     links = document.createElement("ul");
 
@@ -32,6 +32,6 @@ const Nav = () => {
   nav.appendChild(links);
 
   return nav;
-};
+})();
 
 export default Nav;

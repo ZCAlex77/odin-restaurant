@@ -5,15 +5,13 @@ import Menu from "./components/Menu";
 import Contact from "./components/Contact";
 import "./styles/general.css";
 
-const render = () => {
+const render = (function(){
   const container = document.createElement("div"),
     main = document.createElement("main");
 
   container.id = "content";
-  main.append(About(), Menu(), Contact());
+  main.append(About, Menu, Contact);
 
-  container.append(Header(), Nav(), main);
+  container.append(Header, Nav, main);
   document.body.appendChild(container);
-};
-
-render();
+})();

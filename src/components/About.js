@@ -1,6 +1,6 @@
 import "../styles/about.css";
 
-const About = () => {
+const About = (function () {
   const div = document.createElement("div"),
     firstH2 = document.createElement("h2"),
     secondH2 = document.createElement("h2"),
@@ -18,6 +18,6 @@ const About = () => {
     "We offer you food that's not good enough for a restaurant but perfect for your standards! We serve a small variety of dishes that even a 7yo child could cook. So what are you waiting for? Come by the restaurant or place an order online, because we're sure that you'll do that!";
   div.append(firstH2, firstP, secondH2, secondP);
   return div;
-};
+})();
 
 export default About;

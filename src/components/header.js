@@ -1,6 +1,6 @@
 import "../styles/header.css";
 
-const Header = () => {
+const Header = (function(){
   const header = document.createElement("header");
   const h1 = document.createElement("h1");
 
@@ -9,6 +9,6 @@ const Header = () => {
   header.append(h1);
 
   return header;
-};
+})();
 
 export default Header;

@@ -1,11 +1,11 @@
 import "../styles/contact.css";
 
-const Contact = () => {
+const Contact = (function () {
   const div = document.createElement("div"),
     ul = document.createElement("ul"),
     p = document.createElement("p"),
     h2 = document.createElement("h2");
-  
+
   div.id = "contact";
 
   h2.textContent = "Hey potential customer!";
@@ -23,6 +23,6 @@ const Contact = () => {
 
   div.append(h2, p, ul);
   return div;
-};
+})();
 
 export default Contact;

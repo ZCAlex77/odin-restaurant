@@ -1,7 +1,7 @@
 import "../styles/menu.css";
 import Card from "./Card";
 
-const Menu = () => {
+const Menu = (function(){
   const div = document.createElement("div");
   div.id = "menu";
 
@@ -16,6 +16,6 @@ const Menu = () => {
   });
 
   return div;
-};
+})();
 
 export default Menu;
